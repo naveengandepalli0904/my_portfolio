@@ -1,0 +1,20 @@
+*{
+    font-family: monospace;
+}body{
+
+    margin: 0;
+}
+    header{
+    background-color: #2196F3;
+    height: 100vh;
+    color: white;
+    
+    text-align: center;
+}
+.button{
+    height: 40px;
+    width: 140px;
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
