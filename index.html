@@ -8,26 +8,23 @@
 </head>
 <body>
     <header>
-    <h1>Welcome to My PORTFOLIO,</h1>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
 
-    <br><br>
-
-
-    
-
-
-    <a href="" class="button">
-        <button>ABOUT</button>    
+    <br>
+    <div class="nav">
+    <a href="#about" >
+        <button class="button">ABOUT</button>    
     </a>
-    <a href="" class="button">
-        <button>SKILLS</button>
+    <a href="#skills" >
+        <button class="button">SKILLS</button>
     </a>
-    <a href="" class="button">
-        <button>PROJECTS</button>
+    <a href="#projects" >
+        <button class="button">PROJECTS</button>
     </a>
-    <a href="" class="button">
-        <button>CONTACT</button>
+    <a href="#contact" >
+        <button class="button">CONTACT</button>
     </a>
+    </div>
     </header>
     <br><br>
 
@@ -88,24 +85,29 @@
             <br><br>
             <label for="message">Enter Your Message:</label>
             <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+            <br><br>
+            <label>Select Your Preferred Programming Languages:</label>
+            <br>
+            <input type="checkbox" id="python" name="language" value="Python">
+            <label for="python">Python</label>
+            <br>
+            <input type="checkbox" id="c" name="language" value="C">
+            <label for="c">C</label>
+            <br>
+            <button type="submit" class="submit">Submit</button>
+     
             
         </section>
 
     </main>
+    
+    <button  class="linkedin">LINKEDIN</button>
     <footer>
         
 
 
     
-    <label>Select Your Preferred Programming Languages:</label>
-    <br><br>
-    <label for="c">C</label>
-    <input type="checkbox" id="c" value="c" name="language">
-    <br>
-    <label for="python">PYTHON</label>
-    <input type="checkbox" id="python"  value="python" name="language">
-    <br><br> 
-    <button type="submit">Submit</button>
+    
     <br><br>
     <p>Copyright © 2026 Portfolio. All rights reserved.</p>
     </form>
